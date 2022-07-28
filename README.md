@@ -4,8 +4,14 @@ This is the starter template for the final assessment project for Udacity's Reac
 
 Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) to bootstrap the project.
 
+## Screenshots Of The Project
 
-
+![Alt text](/screenshots/Screenshot1.png?raw=true "Home Screen")
+![Alt text](/screenshots/Screenshot2_change_book_state.png?raw=true "Change Book State")
+![Alt text](/screenshots/Screenshot3_The_Updated_book_state_without_page_refresh.png?raw=true "Update The Book State")
+![Alt text](/screenshots/Screenshot4_search_screen.png?raw=true "Search Screen")
+![Alt text](/screenshots/Screenshot5_change_book_state_from_udacity_backend_server.png?raw=true "Change Book State From Udacity Backend Server To Display It in my Shelfs")
+![Alt text](/screenshots/Screenshot6_the_updated_book_show_on_the_shelf_after_updating_it's_state_from_udacity_server_without_page_refresh.png?raw=true "The Book is now Added To the Chosen Shelf without page refresh")
 ## Backend Server
 
 To simplify your development process, we've provided a backend server for you to develop against. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods you will need to perform necessary operations on the backend:
@@ -56,9 +62,3 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
