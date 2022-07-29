@@ -3,6 +3,7 @@ import ShelfUpdate from './ShelfUpdate'
 import propTypes from 'prop-types'
 
 const Book = (props) => {
+    const {book} =props;
     return (
         <div className="book">
             <div className="book">
@@ -12,13 +13,13 @@ const Book = (props) => {
                         style={{
                             width: 128,
                             height: 193,
-                            backgroundImage: `url(${props.book.imageLinks ? props.book.imageLinks.thumbnail : 'Cover Error'})`
+                            backgroundImage: `url(${book.imageLinks ? book.imageLinks.thumbnail : 'Cover Error'})`
                         }}
                     ></div>
-                    <ShelfUpdate book={props.book} updateShelf={props.updateShelf} />
+                    <ShelfUpdate book={book} updateShelf={props.updateShelf} />
                 </div>
-                <div className="book-title">{props.book.title ? props.book.title : ''}</div>
-                <div className="book-authors">{props.book.authors ? props.book.authors : ''}</div>
+                <div className="book-title">{book.title ? book.title : ''}</div>
+                <div className="book-authors">{book.authors ? book.authors : ''}</div>
             </div>
         </div>
     )

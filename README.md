@@ -4,6 +4,24 @@ This is the starter template for the final assessment project for Udacity's Reac
 
 Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) to bootstrap the project.
 
+
+## Prerequisites
+Your machine must have the following installed on it:
+- [Node/NPM](https://nodejs.org/en/download/) (v14 or higher)
+
+## Instructions
+
+### 1. Install Dependencies
+After Cloning the project, head inside the project folder and run
+```
+npm install
+```
+
+### 2. Starting the project
+Make sure to have Port 3000 available
+```
+npm start
+```
 ## Screenshots Of The Project
 
 ![Alt text](/screenshots/Screenshot1.png?raw=true "Home Screen")

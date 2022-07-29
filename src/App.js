@@ -7,6 +7,7 @@ import {getAll, update} from './BooksAPI'
 
 function App() {
   const [books, setbook] = useState([]);
+  const [flag, setFlag] = useState(false);
 
   const getBooks = async () => {
     const res = await getAll()
@@ -24,7 +25,7 @@ function App() {
     update(book, shelf)
 
     setbook(books)
-    
+    setFlag(!flag);
     getBooks()
   }
 
