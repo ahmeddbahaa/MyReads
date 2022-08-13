@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MyReads/static/css/main.79e2be80.chunk.css",
+    "main.js": "/MyReads/static/js/main.59732c64.chunk.js",
+    "main.js.map": "/MyReads/static/js/main.59732c64.chunk.js.map",
+    "runtime-main.js": "/MyReads/static/js/runtime-main.c353832e.js",
+    "runtime-main.js.map": "/MyReads/static/js/runtime-main.c353832e.js.map",
+    "static/js/2.67dae0c5.chunk.js": "/MyReads/static/js/2.67dae0c5.chunk.js",
+    "static/js/2.67dae0c5.chunk.js.map": "/MyReads/static/js/2.67dae0c5.chunk.js.map",
+    "index.html": "/MyReads/index.html",
+    "static/css/main.79e2be80.chunk.css.map": "/MyReads/static/css/main.79e2be80.chunk.css.map",
+    "static/js/2.67dae0c5.chunk.js.LICENSE.txt": "/MyReads/static/js/2.67dae0c5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/MyReads/static/media/arrow-drop-down.4378492a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c353832e.js",
+    "static/js/2.67dae0c5.chunk.js",
+    "static/css/main.79e2be80.chunk.css",
+    "static/js/main.59732c64.chunk.js"
+  ]
+}
